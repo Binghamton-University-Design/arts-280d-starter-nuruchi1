@@ -1,0 +1,49 @@
+/*stylesheet*/
+
+body{
+    background-color: #353935;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+#wrapper{
+    margin: 2em auto;
+    max-width: 960px;
+    padding: 0 2em;
+}
+
+.article{
+    background-color: #eee;
+    padding: 2em 0.5em;
+}
+
+img{
+    display:block;
+    align-self: center;
+    width: 95%;
+    height: auto;
+    margin: 1.25em;
+}
+
+h1, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p.byline{
+    color:#353935;
+    font-size: 14px;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    margin-top: auto;
+}
+
+.article a{
+    color: #809688;
+}
+
