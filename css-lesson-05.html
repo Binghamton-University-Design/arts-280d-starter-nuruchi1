@@ -1,70 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CSS Lesson 04 - CSS Grid </title>
+        <title>CSS Lesson 05 - CSS Grid Framework </title>
         <meta name="keywords" content="lesson, HTML, Binghamton University">
-        <meta name="description" content="This is a basic intro to HTML coding.">
-        <link rel="stylesheet" type="text/css" href="css/css-lesson-04.css">
+        <meta name="description" content="This is a basic intro to CSS coding.">
+        <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" type="text/css" href="css/css-lesson-05.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300&family=Noto+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
        <div id="wrapper">
-           <h1>Video example 1:</h1>
-           <div class="grid">
-                <div class="item"> 1 </div>
-                <div class="item"> 2 </div>
-                <div class="item"> 3 </div>
-                <div class="item"> 4 </div>
-                <div class="item item5"> 5 </div>
-                <div class="item"> 6 </div>
-                <div class="item"> 7 </div>
-                <div class="item"> 8 </div>
-            </div> 
-            <h1>Video example 2:</h1>
-            <div id="grid-complex">
-                <div class="block"></div>
-                <div class="block tall"></div>
-                <div class="block"></div>
-                <div class="block"></div>
-                <div class="block"></div>
-                <div class="block"></div>
-                <div class="block wide"></div>
-                <div class="block"></div>
-                <div class="block"></div>
-                <div class="block"></div>
-                <div class="block"></div>
+            <div class="grid" id="masthead">
+               <div class="logo width-12-12-m width-4-12">logo</div> 
+               <div class="nav width-12-12-m width-8-12">navigation</div> 
             </div>
-            <h1>Example 1:</h1>
-            <div id="my-grid-complex">
-                <div class="boxs"></div>
-                <div class="boxs"></div>
-                <div class="boxs"></div>
-                <div class="boxs wide1"></div>
-                <div class="boxs"></div>
-                <div class="boxs tall1"></div>
-                <div class="boxs"></div>
-                <div class="boxs"></div>
-                <div class="boxs "></div>
-                <div class="boxs wide2"></div>
-                <div class="boxs"></div>
-            </div>
-            <h1>Example 2:</h1>
-            <div id="grid-complex">
-                <div class="space tall2"></div>
-                <div class="space"></div>
-                <div class="space"></div>
-                <div class="space wide3"></div>
-                <div class="space"></div>
-                <div class="space "></div>
-                <div class="space"></div>
-                <div class="space"></div>
-                <div class="space long"></div>
-
-            </div>
-
-
+            <div class="grid" id="main">
+                <div class="thumb width-6-12-m width-3-12">thumb 1</div> 
+                <div class="thumb width-6-12-m width-3-12">thumb 2</div> 
+                <div class="thumb width-6-12-m width-3-12">thumb 3</div> 
+                <div class="thumb width-6-12-m width-3-12 height-2">thumb 4</div> 
+                <div class="thumb width-6-12-m width-3-12">thumb 5</div> 
+                <div class="thumb width-6-12-m width-3-12">thumb 6</div>
+                <div class="thumb width-6-12-m width-3-12">thumb 7</div> 
+                <div class="thumb width-2-12-m width-2-12">extra</div> 
+                <div class="thumb width-2-12-m width-2-12">extra</div> 
+                <div class="thumb width-2-12-m width-2-12">extra</div> 
+                <div class="thumb width-2-12-m width-2-12">extra</div> 
+                <div class="thumb width-2-12-m width-2-12">extra</div> 
+                <div class="thumb width-2-12-m width-2-12">extra</div>
+             </div>
+             <div class="grid" id="footer">
+                <div class="width-12-12-m width-12-12">footer</div> 
+             </div>
        </div> 
     </body>
 </html>
